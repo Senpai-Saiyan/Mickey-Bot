@@ -1,0 +1,12 @@
+# Dependency directory
+node_modules
+
+# Stuff
+start.bat
+servers.sqlite
+node-uuid
+uuid
+node_modules/
+shrinkwrap.yaml
+config.json
+

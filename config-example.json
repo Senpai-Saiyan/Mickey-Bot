@@ -1,0 +1,43 @@
+{
+	"token": "",
+	"prefix": "&",
+	"owner": "228597465438224385",
+	"eventlogging": "",
+	"webhook": "",
+	"logwebhook": "",
+	"games": [
+		""
+	],
+	"tba": "",
+	"key": "",
+	"cx": "",
+	"googl": "",
+	"imdb": "",
+	"sendServerCount": true,
+	"dlist": "",
+	"dbotspw": "",
+	"dbotsorg": "",
+	"mashape": "",
+	"musicOpts": {
+		"prefix": "",
+		"maxQueueSize": "20",
+		"anyoneCanAdjust": true,
+		"helpCmd": "",
+		"ownerOverMember": true,
+		"enableClear": false,
+		"botOwner": "228597465438224385",
+		"youtubeKey": "",
+		"enableAliveMessage": true
+	},
+	"opts": {
+		"mentionEveryone": false,
+		"fetchAllMembers": true,
+		"sync": true,
+		"disabledEvents": [
+			"TYPING_START",
+			"TYPING_STOP",
+			"ROLE_DELETE",
+			"USER_UPDATE"
+		]
+	}
+}
