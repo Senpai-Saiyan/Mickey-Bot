@@ -8,5 +8,4 @@ node-uuid
 uuid
 node_modules/
 shrinkwrap.yaml
-config.json
 

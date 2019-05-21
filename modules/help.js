@@ -30,7 +30,7 @@ module.exports = {
             var invite = new Discord.RichEmbed()
                 .setTitle(bot.user.username + ' Help Server')
                 .setColor([r, g, b])
-                .setDescription('Join the ! Mickey Bot Support Server https://discord.gg/dVYw7xR if you have any questions or concerns, or just to hang out.')
+                .setDescription('Join the ! Mickey Bot Support Server https://discord.gg/FuKht4n if you have any questions or concerns, or just to hang out.')
                 .setTimestamp();
             msg.author.send({ embed: invite });
             */
@@ -60,7 +60,7 @@ module.exports = {
                     output += `\`\`${c.name}\`\` `;
                 });
                 help.addField(currentCategory + ' Commands:', output);
-                help.addField('Questions? Concerns? Just want to hang?', 'https://discord.gg/dVYw7xR');
+                help.addField('Questions? Concerns? Just want to hang? Click the invite below to join the Mickey Bot Support Server', 'https://discord.gg/FuKht4n');
                 if (msg.channel.permissionsFor(msg.guild.me).has('EMBED_LINKS')) {
                     msg.channel.send(help);
                 } else {
@@ -82,7 +82,7 @@ module.exports = {
                     .addField('Description', `${command.help}`, true)
                     .addField('Usage', `${msg.prefix}${command.usage}`, true)
                     .setColor(msg.guild.me.displayHexColor)
-                    .setDescription('*Need more help? Join our support server at https://discord.gg/dVYw7xR and we\'ll show you the way.*');
+                    .setDescription('*Need more help? Join our support server at https://discord.gg/FuKht4n and we\'ll show you the way.*');
                 /* if (command.conf.aliases != "") {
                     helpCommand.addField('Aliases', `${command.conf.aliases.join(', ')}`)
                 }*/
