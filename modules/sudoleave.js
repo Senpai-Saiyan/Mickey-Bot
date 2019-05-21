@@ -1,7 +1,7 @@
 module.exports = {
-    name: 'sudoleave',
+    name: 'leave',
     type: 'owner',
-    usage: 'sudoleave',
+    usage: 'leave',
     permission: 6,
     help: 'Makes the bot leave a server.',
     main: function(bot, msg) {

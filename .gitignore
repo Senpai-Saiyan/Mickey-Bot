@@ -3,10 +3,10 @@ node_modules
 
 # Stuff
 start.bat
+config.json
 servers.sqlite
 node-uuid
 uuid
 node_modules/
 shrinkwrap.yaml
-config.json
 

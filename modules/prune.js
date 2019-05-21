@@ -1,3 +1,4 @@
+/*
 // Work on perms checks
 module.exports = {
     name: 'prune',
@@ -9,7 +10,8 @@ module.exports = {
       msg.channel.send("Prune command down for maintenance. Apologies for any inconveniences. - Saiyan ")
 }
 }
-/* module.exports = {
+*/
+ module.exports = {
     name: 'prune',
     type: 'moderation',
     usage: 'prune <amount> | <user-mention> | bots',
@@ -63,4 +65,3 @@ module.exports = {
         }
     },
 };
-*/
